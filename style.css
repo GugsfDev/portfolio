@@ -233,3 +233,101 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (max-width: 900px) {
+  .perfil {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .foto-gustavo {
+    width: 250px;
+    height: 330px;
+  }
+
+  .gustavo h1 {
+    font-size: 2.5rem;
+  }
+
+  .menu {
+    gap: 1.2rem;
+  }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(22, 32, 59, 0.9);
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    display: none;
+    padding: 1rem 0;
+  }
+
+  .menu.active {
+    display: flex;
+  }
+
+  .navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .menu-link {
+    font-size: 1.2rem;
+  }
+
+  .perfil {
+    flex-direction: column;
+    gap: 30px;
+    padding: 100px 1rem;
+  }
+
+  .foto-gustavo {
+    width: 200px;
+    height: 260px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .titulo-sobre {
+    font-size: 2rem;
+  }
+
+  .texto-sobre {
+    font-size: 1rem;
+  }
+
+  .projetos-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+    height: auto;
+  }
+
+  .card-inner {
+    width: 100%;
+    height: 250px;
+  }
+
+  .formulario-contato {
+    width: 90%;
+  }
+
+  .contato-nome,
+  .contato-msg {
+    width: 100%;
+  }
+}
